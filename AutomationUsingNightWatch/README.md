@@ -8,7 +8,8 @@ This project is Node.js based End-to-End (E2E) testing solution for browser base
 2. Install nightwatch using command
 
 	$ npm install [-g] nightwatch --save-dev
-	Add -g option to make nightwatch runner available globally in your system.
+	
+Add -g option to make nightwatch runner available globally in your system.
 
 3.Install selenium using command
 
