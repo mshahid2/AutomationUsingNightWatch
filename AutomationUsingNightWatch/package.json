@@ -1,0 +1,29 @@
+{
+  "name": "Automation-using-nightwatch",
+  "version": "1.0.24",
+  "description": "front-end testing.",
+  "engines": {
+    "node": "4.4.6"
+  },
+  "scripts": {
+    "postinstall": "node nightwatch.conf.js",
+    "test": "./node_modules/.bin/nightwatch --env local",
+    "e2eTestCases": "npm run sauce; npm run upload"
+  },
+  "dependencies": {
+    "nightwatch": "^0.9.9",
+    "selenium-download": "^2.0.7"
+  },
+   "keywords": [
+    "nightwatch",
+    "testing",
+    "front-end",
+    "UI",
+    "browser",
+    "test",
+    "testing",
+    "how to",
+    "User Acceptance Testing",
+    "UAT"
+  ]
+}
