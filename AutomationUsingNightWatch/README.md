@@ -7,7 +7,7 @@ This project is Node.js based End-to-End (E2E) testing solution for browser base
 1. Install Node if you don't have in your system.
 2. Install nightwatch using command
 
-	$ npm install [-g] nightwatch --save-dev
+	npm install [-g] nightwatch --save-dev
 	
 Add -g option to make nightwatch runner available globally in your system.
 
